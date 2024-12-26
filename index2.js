@@ -28,13 +28,7 @@ async function fetchDataAndCreateAccordion() {
         block3.innerHTML = `<p style="color: red;">${error.message}</p>`;
     }
 }
-const data = [
-    { title: "Заголовок 1", content: "Текст для першого елемента акордеону." },
-    { title: "Заголовок 2", content: "Текст для другого елемента акордеону." },
-    { title: "Заголовок 3", content: "Текст для третього елемента акордеону." },
-    { title: "Заголовок 4", content: "Текст для четвертого елемента акордеону." },
-    { title: "Заголовок 5", content: "Текст для п'ятого елемента акордеону." }
-  ];
+
 function CreateAccordionByData(data)
 {
     const accordionContainer = document.querySelector('.accordion');
